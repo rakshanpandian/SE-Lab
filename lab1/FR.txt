@@ -1,0 +1,16 @@
+FR-002 [Priority:High]:
+Different threads for each chapter. The user should only be able to access the threads for the chapter they've reached.
+Pass:The user only sees the chapters that they've said to have read.
+Fail:The user sees chapters which they haven't specified having read before.
+FR-003 [Priority:High]:
+The system should allow them to log in to be able to log their progress so far and put in comments.
+Pass:Only after logging in should they be able to see the chapters and access their account to log messages
+Fail:They see the chapters before logging in and even then could log messages from their or any account
+FR-004:
+The system should display a monthly poll in front page allowing readers to give suggestions for which book they should read next.
+pass:The monthly poll should be shown in the front page. It should allow for input in book reccomendations.  
+fail:The monthly poll shouldn't be shown.
+FR-005:
+Different users must have their own user pages which show how much progress they've made on a book.
+Pass:When the user clicks their profile it opens up to a personalized page showing their progress and comments.
+Fail:The user gets a 404 error thrown at them on trying to open their page.
